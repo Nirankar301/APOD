@@ -7,9 +7,5 @@
   <dimen name="spacing_medium">12dp</dimen>
   <dimen name="spacing_small">8dp</dimen>
   <dimen name="spacing_tiny">4dp</dimen>
-  <dimen name="card_radius">4dp</dimen>
-  <dimen name="card_size_220">220dp</dimen>
-  <dimen name="arrow_width">24dp</dimen>
-  <dimen name="arrow_height">42dp</dimen>
 
 </resources>
