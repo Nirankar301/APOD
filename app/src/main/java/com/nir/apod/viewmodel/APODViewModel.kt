@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.nir.apod.data.IAPODRepository
 import com.nir.apod.model.APOD
+import com.nir.apod.util.DATE_PATTERN
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.launch
 import timber.log.Timber
@@ -34,7 +35,7 @@ class APODViewModel(
                 if (it == null){
                    errorLiveData.postValue(true)
                 } else {
-                    val dateFormat = SimpleDateFormat("yyyy-MM-dd")
+                    val dateFormat = SimpleDateFormat(DATE_PATTERN)
                     val currentDate = dateFormat.format(Date())
                     if (currentDate != it.date) {
                         dateMismatchLiveData.postValue(true)
