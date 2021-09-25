@@ -4,8 +4,8 @@ import com.nir.apod.model.APOD
 
 interface IAPODRepository {
     /**
-     * Retrieves news headlines. It is configured to provide latest news for the country India
-     * @return Headlines
+     * Retrieves apod
+     * @return [APOD]
      */
     suspend fun getAPOD(): APOD?
 }

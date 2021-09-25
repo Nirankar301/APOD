@@ -1,4 +1,4 @@
-package com.nir.newsheadlines.module
+package com.nir.apod.module
 
 import com.nir.apod.viewmodel.APODViewModel
 import org.koin.android.viewmodel.dsl.viewModel

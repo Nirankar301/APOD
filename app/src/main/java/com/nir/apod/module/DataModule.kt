@@ -1,4 +1,4 @@
-package com.nir.newsheadlines.module
+package com.nir.apod.module
 
 import com.nir.apod.data.APODRepository
 import com.nir.apod.data.IAPODRepository
